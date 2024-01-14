@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1070px) {
+    .incomes_main{
+        @apply flex flex-col
+    }
+    .incomes_left{
+        @apply w-[100%] justify-center 
+    }
+    .incomes_right{
+        @apply w-[100%] justify-center
+    }
+    .income-text{
+        @apply text-[1.6rem]
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .input_500px{
+        @apply w-[17rem]
+    }
+
+    .button_500px{
+        @apply flex-col items-start space-y-[2rem]
+    }
+    .incomes_left{
+        @apply h-[10rem]
+    }
+    .incomes_right{
+        @apply px-[1.7rem]
+    }
+    .income-text{
+        @apply text-[1.3rem]
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .input_360px{
+        @apply w-[13rem]
+    }
+    .incomes_right{
+        @apply px-[1rem]
+    }
+    .title_360px{
+        @apply text-[1.5rem]
+    }
+    .incomes_left{
+        @apply py-[8rem]
+    }
+    .income-text{
+        @apply text-[1rem] p-[0.5rem]
+    }
+}

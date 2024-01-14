@@ -1,0 +1,60 @@
+.service-bg{
+    background: linear-gradient(90deg, rgba(0,23,50,1) 0%, rgba(1,44,59,1) 100%);
+}
+
+@media screen and (max-width: 1076px) {
+    .service-title{
+        @apply text-[2.5rem]
+    }
+    .service-cards{
+        @apply mt-[4rem]
+    }
+    .service-cont{
+        @apply px-[3rem] py-[4rem]
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .service-title{
+        @apply text-[2rem]
+    }
+    .service-cards{
+        @apply mt-[3rem]
+    }
+    .service-ask{
+        @apply text-[0.8rem]
+    }
+    .service-cont{
+        @apply px-[2.5rem] py-[3.5rem]
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .service-title{
+        @apply text-[1.5rem]
+    }
+    .service-cards{
+        @apply mt-[2rem]
+    }
+    .service-ask{
+        @apply text-[0.7rem]
+    }
+    .service-cont{
+        @apply px-[2rem] py-[3rem]
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .service-title{
+        @apply text-[1.2rem]
+    }
+    .service-cards{
+        @apply mt-[1rem]
+    }
+    .service-ask{
+        @apply text-[0.7rem]
+    }
+    .service-cont{
+        @apply px-[1.5rem] py-[2.5rem]
+    }
+}

@@ -1,0 +1,41 @@
+.toggle-btn{
+    display: none;
+}
+
+@media screen and (max-width: 1060px) {
+    .menu{
+        font-size: 1rem;
+    }
+    .logo_main p{
+        font-size: 1.5rem;
+    }
+    .logo_img{
+        width: 2rem;
+    }
+    .toggle-btn{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 730px) {
+    .menu{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .open-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo_img{
+        width: 1.5rem;
+    }
+    .logo_main p{
+        font-size: 1rem;
+    }
+    .sign-in-btn{
+        @apply py-1 px-2
+    }
+}

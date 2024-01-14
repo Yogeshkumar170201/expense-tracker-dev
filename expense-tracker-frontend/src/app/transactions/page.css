@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1215px) {
+    .trans_main{
+        @apply px-[3rem]
+    }
+
+    .trans_details_main{
+        @apply text-[1.6rem]
+    }
+}
+
+
+@media only screen and (max-width: 1265px) {
+    .trans_main{
+        @apply px-[2rem]
+    }
+
+    .trans_details_main{
+        @apply text-[1.5rem]
+    }
+
+    .trans_search_input{
+        @apply text-[1.3rem] p-[0.7rem] h-[3rem]
+    }
+
+    .trans_search_btn{
+        @apply text-[1.8rem] p-[0.9rem]
+    }
+
+    .trans_search_main{
+        @apply space-x-[1.5rem]
+    }
+}
+
+
+@media only screen and (max-width: 1030px) {
+    .trans_main{
+        @apply px-[1.5rem]
+    }
+
+    .trans_details_main{
+        @apply text-[1.2rem]
+    }
+
+    .trans_ref{
+        @apply text-[0.8rem]
+    }
+
+    .trans_search_input{
+        @apply text-[1.2rem] p-[0.6rem]
+    }
+
+    .trans_search_btn{
+        @apply text-[1.6rem] p-[0.8rem]
+    }
+    .trans_search_main{
+        @apply space-x-[1.3rem]
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .trans_main{
+        @apply px-[1.2rem]
+    }
+
+    .trans_details_main{
+        @apply text-[1rem]
+    }
+
+    .trans_ref{
+        @apply text-[0.7rem]
+    }
+    .trans_search_input{
+        @apply text-[1rem] p-[0.5rem] h-[2.5rem]
+    }
+
+    .trans_search_btn{
+        @apply text-[1.1rem] p-[0.7rem]
+    }
+    .trans_search_main{
+        @apply space-x-[1.2rem]
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .trans_list{
+        @apply p-[1.5rem]
+    }
+    .trans_details{
+        @apply flex flex-col
+    }
+    .trans_details_item{
+        @apply w-[90%]
+    }
+    .trans_ref{
+        @apply text-[1rem]
+    }
+    .trans_details_main{
+        @apply text-[2rem]
+    }
+    .trans_search_main{
+        @apply space-x-[1rem]
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .trans_ref{
+        @apply text-[0.8rem]
+    }
+    .trans_details_main{
+        @apply text-[1.5rem]
+    }
+    .trans_search_main{
+        @apply space-x-[0.9rem]
+    }
+
+    .trans_search_input{
+        @apply text-[0.8rem] h-[2rem]
+    }
+
+    .trans_search_btn{
+        @apply text-[0.9rem] p-[0.6rem]
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .trans_ref{
+        @apply text-[0.7rem]
+    }
+    .trans_details_main{
+        @apply text-[1.2rem]
+    }
+    .trans_search_main{
+        @apply space-x-[0.8rem]
+    }
+    .trans_search_input{
+        @apply text-[0.8rem] h-[1.8rem]
+    }
+
+    .trans_search_btn{
+        @apply text-[0.8rem] p-[0.4rem]
+    }
+
+    .trans_list{
+        @apply px-[1rem]
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .trans_details_main{
+        @apply text-[1rem]
+    }
+    .trans_search_main{
+        @apply space-x-[0.7rem]
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .trans_details_main{
+        @apply text-[0.6rem]
+    }
+
+    .trans_ref{
+        @apply text-[0.5rem]
+    }
+    .trans_search_main{
+        @apply space-x-[0.6rem]
+    }
+    .trans_li{
+        @apply p-[0.5rem]
+    }
+}
